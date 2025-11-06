@@ -21,7 +21,7 @@ De symmetrische sleutel wordt één keer aangemaakt met `Fernet.generate_key` en
 
 ## Reflectie
 De app voldoet aan alle Kerchhoff eisen. Dit betekent dat de veiligheid van het sleutelen van tekst mag afhangen van de geheimhouding.
-Vandaar dat er eook gebruik is gemaakt van Fernet AES. Daarmee is de applicatie veilig zolang de sleutel privé blijft en niet gedeeld wordt.
+Vandaar dat er ook gebruik is gemaakt van Fernet AES. Daarmee is de applicatie veilig zolang de sleutel privé blijft en niet gedeeld wordt.
 
 ## Installatie
 ```bash
